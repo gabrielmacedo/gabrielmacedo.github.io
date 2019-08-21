@@ -45,6 +45,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <html>
 <head>
   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script src="https://cdn.tiny.cloud/1/ijsh89jmmlyuf7bny70pva4nrvxu1sj1gxjd0umvleyvuzc2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
   <script>tinymce.init({selector:'textarea'});</script>
 </head>
 <body>
