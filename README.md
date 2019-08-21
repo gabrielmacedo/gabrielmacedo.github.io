@@ -42,7 +42,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### Test TinyMCE
 
-<!DOCTYPE html>
 <html>
 <head>
   <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
