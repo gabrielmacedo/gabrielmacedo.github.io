@@ -39,3 +39,12 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Chatbot TIDO
 
 <script src="//code.tidio.co/bvxhqap4hcy1veunk6wpbvxlangxzpyw.js"></script> 
+
+### Test TinyMCE
+
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>tinymce.init({selector:'textarea'});</script>
+
+<body>
+  <textarea>Next, use our Get Started docs to setup Tiny!</textarea>
+</body>
