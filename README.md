@@ -48,6 +48,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   <script>tinymce.init({selector:'textarea'});</script>
 </head>
 <body>
-  <textarea>Next, use our Get Started docs to setup Tiny!</textarea>
+  <textarea>Start!</textarea>
 </body>
 </html>
