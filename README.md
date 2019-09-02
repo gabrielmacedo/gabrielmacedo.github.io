@@ -51,3 +51,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   <textarea>...</textarea>
 </body>
 </html>
+
+### Hypothesis
+
+<script src="https://hypothes.is/embed.js" async></script>
