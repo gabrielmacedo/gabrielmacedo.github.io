@@ -36,6 +36,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+### BPMN.io
+
+<!-- necessary stylesheets -->
+<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
+<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
+
+<script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-modeler.production.min.js"></script>
+
 ### Chatbot TIDO
 <script src="//code.tidio.co/bvxhqap4hcy1veunk6wpbvxlangxzpyw.js"></script> 
 
@@ -56,13 +64,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <script src="https://hypothes.is/embed.js" async></script>
 
 
-### BPMN.io
 
-<!-- necessary stylesheets -->
-<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
-<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
-
-<script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-modeler.production.min.js"></script>
 
 
 
