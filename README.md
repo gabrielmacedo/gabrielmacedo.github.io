@@ -39,10 +39,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### BPMN.io
 
 <!-- necessary stylesheets -->
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
-
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.3/dist/assets/diagram-js.css" />
+<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.3/dist/assets/bpmn-font/css/bpmn.css" />
+<script src="https://unpkg.com/bpmn-js@5.0.3/dist/bpmn-modeler.development.js"></script>
 
 ### Chatbot TIDO
 <script src="//code.tidio.co/bvxhqap4hcy1veunk6wpbvxlangxzpyw.js"></script> 
