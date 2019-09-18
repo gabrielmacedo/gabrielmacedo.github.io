@@ -37,11 +37,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 ### Chatbot TIDO
-
 <script src="//code.tidio.co/bvxhqap4hcy1veunk6wpbvxlangxzpyw.js"></script> 
 
 ### Test TinyMCE
-
 <html>
 <head>
   <script src="https://cdn.tiny.cloud/1/ijsh89jmmlyuf7bny70pva4nrvxu1sj1gxjd0umvleyvuzc2/tinymce/5/tinymce.min.js"></script>
@@ -50,6 +48,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <body>
   <textarea>...</textarea>
 </body>
+</html>
 
 ### Hypothesis
 
@@ -60,6 +59,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 <script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
 
-</html>
+
 
 
