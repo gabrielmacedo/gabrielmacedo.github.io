@@ -60,37 +60,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### BPMN.io
 
 <!-- BPMN diagram container -->
-<div id="canvas"></div>
-
+<div id="canvas">
 <!-- replace CDN url with local bpmn-js path -->
 <script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-viewer.development.js"></script>
-
-<script>
-  var bpmnXML;
-  var viewer = new BpmnJS({ container: '#canvas' });
-  viewer.importXML(bpmnXML, function(err) {
-    if (err) {
-    } else {
-      var canvas = viewer.get('canvas');
-      canvas.zoom('fit-viewport');
-    }
-  });
-</script>
-
-<script>
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4) {
-      viewer.importXML(xhr.response, function(err) {
-      });
-    }
-  };
-  xhr.open('GET', 'path-to-diagram.bpmn', true);
-  xhr.send(null);
-</script>
-
-<!-- necessary stylesheets -->
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
-
+</div>
