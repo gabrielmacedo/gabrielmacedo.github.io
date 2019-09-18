@@ -76,3 +76,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     }
   });
 </script>
+
+<script>
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4) {
+      viewer.importXML(xhr.response, function(err) {
+        // ...
+      });
+    }
+  };
+  xhr.open('GET', 'path-to-diagram.bpmn', true);
+  xhr.send(null);
+</script>
