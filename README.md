@@ -59,22 +59,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### BPMN.io
 
-<!-- replace CDN url with local bpmn-js path -->
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-viewer.development.js"></script>
-
-<!-- necessary stylesheets -->
+<script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-modeler.production.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
 <link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
 
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
 
-<script>
-  var viewer = new BpmnJS({ container: 'body' });
-  viewer.importXML(bpmnXML, function(err) {
-    if (err) {
-      console.log('error rendering', err);
-    } else {
-      console.log('we are good!');
-    }
-  });
-</script>
