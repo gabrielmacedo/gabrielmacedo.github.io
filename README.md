@@ -67,3 +67,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
 
 <script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
+
+<script>
+  var viewer = new BpmnJS({ container: 'body' });
+  viewer.importXML(bpmnXML, function(err) {
+    if (err) {
+      console.log('error rendering', err);
+    } else {
+      console.log('we are good!');
+    }
+  });
+</script>
