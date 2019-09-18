@@ -55,3 +55,12 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Hypothesis
 
 <script src="https://hypothes.is/embed.js" async></script>
+
+
+### BPMN.io
+
+<!-- BPMN diagram container -->
+<div id="canvas"></div>
+
+<!-- replace CDN url with local bpmn-js path -->
+<script src="https://unpkg.com/bpmn-js@0.27.0-1/dist/bpmn-viewer.development.js"></script>
