@@ -59,10 +59,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### BPMN.io
 
 <!-- necessary stylesheets -->
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
-<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
+<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
+<link rel="stylesheet" href="https://unpkg.com/browse/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
 
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js" async></script>
+<script src="https://unpkg.com/browse/bpmn-js@5.0.4/dist/bpmn-modeler.production.min.js"></script>
 
 
 
