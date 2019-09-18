@@ -82,10 +82,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4) {
       viewer.importXML(xhr.response, function(err) {
-        // ...
       });
     }
   };
   xhr.open('GET', 'path-to-diagram.bpmn', true);
   xhr.send(null);
 </script>
+
+
+<!-- necessary stylesheets -->
+<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/diagram-js.css" />
+<link rel="stylesheet" href="https://unpkg.com/bpmn-js@5.0.4/dist/assets/bpmn-font/css/bpmn.css" />
+
+<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-modeler.development.js"></script>
