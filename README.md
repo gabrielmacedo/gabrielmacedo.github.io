@@ -66,19 +66,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <script src="https://unpkg.com/bpmn-js@0.27.0-1/dist/bpmn-viewer.development.js"></script>
 
 <script>
-  // the diagram you are going to display
   var bpmnXML;
-
-  // BpmnJS is the BPMN viewer instance
   var viewer = new BpmnJS({ container: '#canvas' });
-
-  // import a BPMN 2.0 diagram
   viewer.importXML(bpmnXML, function(err) {
     if (err) {
-      // import failed :-(
     } else {
-      // we did well!
-
       var canvas = viewer.get('canvas');
       canvas.zoom('fit-viewport');
     }
