@@ -59,8 +59,5 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 ### BPMN.io
 
-<!-- BPMN diagram container -->
-<div id="canvas">
 <!-- replace CDN url with local bpmn-js path -->
-<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-viewer.development.js" async></script>
-</div>
+<script src="https://unpkg.com/bpmn-js@5.0.4/dist/bpmn-viewer.development.js"></script>
