@@ -66,6 +66,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### EPUB.js
 
 <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+
 <script>
   var book = ePub("url/to/book/");
   var rendition = book.renderTo("area");
