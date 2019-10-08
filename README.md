@@ -73,4 +73,16 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   rendition.display();
 </script>
 
+### MAPBOX
 
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.3.2/mapbox-gl.css' rel='stylesheet' />
+
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FicmllbG1hY2VkbyIsImEiOiJjazFpZWFvb2IwMmExM3JsNWYyZnBuMjNmIn0.36y0cBbEbCVq7VWaCjSYpw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11'
+});
+</script>
