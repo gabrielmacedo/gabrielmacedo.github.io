@@ -93,5 +93,7 @@ style: 'mapbox://styles/mapbox/streets-v11'
 
 ### Aeródromos Públicos - Brasil
 
-<iframe class="render-viewer " src="https://render.githubusercontent.com/view/geojson?commit=dc03d43638d9b7d01ab4a23c992bfdc3ee1f839d&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6761627269656c6d616365646f2f616e61632f646330336434333633386439623764303161623461323363393932626664633365653166383339642f4165726f64726f6d6f732d4d696e6973746572696f4461496e6672616573747275747572612e67656f6a736f6e&amp;nwo=gabrielmacedo%2Fanac&amp;path=Aerodromos-MinisterioDaInfraestrutura.geojson&amp;repository_id=68941377&amp;repository_type=Repository#1eb59a9a-15fd-49c0-a372-bbb20580307d" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
+<iframe class="render-viewer " src="https://render.githubusercontent.com/view/geojson?commit=dc03d43638d9b7d01ab4a23c992bfdc3ee1f839d&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6761627269656c6d616365646f2f616e61632f646330336434333633386439623764303161623461323363393932626664633365653166383339642f4165726f64726f6d6f732d4d696e6973746572696f4461496e6672616573747275747572612e67656f6a736f6e&amp;nwo=gabrielmacedo%2Fanac&amp;path=Aerodromos-MinisterioDaInfraestrutura.geojson&amp;repository_id=68941377&amp;repository_type=Repository#1eb59a9a-15fd-49c0-a372-bbb20580307d" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display" "width: 100%;
+    height: 100%;
+    border: 0">
 </iframe>
